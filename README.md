@@ -50,6 +50,8 @@ Let's see the differences between the two:
 | It is faster. | It is much slower. |
 | Affirmations must be written in a file, before running the script. | Affirmations can be written while the program is running. |
 
+<i>Please keep in mind that the GUI version contains a bug that may cause the program to crash.</i>
+
 ### Installation
 
 #### GUI version

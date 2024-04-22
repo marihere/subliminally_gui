@@ -1,3 +1,6 @@
+# This file contains the code responsible
+# for the creation of the video.
+
 from librosa import *
 from moviepy.editor import *
 

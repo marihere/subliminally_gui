@@ -102,7 +102,8 @@ class EnterAffirmations(Screen):
                     ("Audio", "*.mp3"),
                 ]))
 
-
+# This part causes an error whenever you click anywhere on the window.
+# Idk how to fix it.
 class LoadingScreen(GridLayout, Screen):
     def __init__(self, **kwargs):
         super(LoadingScreen, self).__init__(**kwargs)

@@ -55,7 +55,7 @@ def sub_creator(title, affs_txt, bg_path):
     combined = bg.overlay(affs) # Overlay the affirmations' audio onto the background's audio.
     combined.export('subliminals/audios/' + title + '.wav', format='wav') # The subliminal audio is finally ready! :)
 
-
+# Idk what this is but it works
 def speed_change(sound, speed=1.0):
     sound_with_altered_frame_rate = sound._spawn(sound.raw_data, overrides={'frame_rate': int(sound.frame_rate * speed)})
     return sound_with_altered_frame_rate.set_frame_rate(sound.frame_rate)
